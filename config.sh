@@ -12,6 +12,12 @@ FIFO_PATH="/tmp/docker-things/fifo"
 # The name of the docker image
 PROJECT_NAME="thunderbird"
 
+# Meta to set in the .desktop file
+APP_GENERIC_NAME="Mail Client"
+APP_CATEGORIES="Application;Network;Email;"
+APP_MIME_TYPE="x-scheme-handler/mailto;application/x-xpinstall;"
+APP_PARAM="%u"
+
 # BUILD ARGS
 BUILD_ARGS=(
     )
