@@ -12,5 +12,5 @@ RUN apt-get update \
 USER $DOCKER_USERNAME
 
 # ENTRYPOINT
-ENTRYPOINT /usr/bin/thunderbird
+ENTRYPOINT ["/usr/bin/thunderbird"]
 
