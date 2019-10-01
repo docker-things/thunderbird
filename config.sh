@@ -28,7 +28,7 @@ RUN_ARGS=(
     -v /tmp/.X11-unix:/tmp/.X11-unix
 
     --memory="2g"
-    --cpu-shares=1024
+    --cpu-shares=512
 
     -v $(pwd)/data/thunderbird:/home/$(whoami)/.thunderbird
     -v $(pwd)/data/cache:/home/$(whoami)/.cache
